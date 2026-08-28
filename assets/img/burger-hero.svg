@@ -1,0 +1,63 @@
+<svg viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="burgerTitle">
+  <title id="burgerTitle">Seaside Smashies Smashburger Illustration</title>
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFC15E"/>
+      <stop offset="100%" stop-color="#F08C2A"/>
+    </linearGradient>
+    <linearGradient id="bunBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8791C"/>
+      <stop offset="100%" stop-color="#C4630F"/>
+    </linearGradient>
+    <linearGradient id="pattyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B3A20"/>
+      <stop offset="100%" stop-color="#4A2712"/>
+    </linearGradient>
+    <linearGradient id="cheeseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD84D"/>
+      <stop offset="100%" stop-color="#FFB627"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- bottom bun -->
+    <path d="M60 380 Q60 340 120 336 L440 336 Q500 340 500 380 Q500 400 470 400 L90 400 Q60 400 60 380 Z" fill="url(#bunBottom)"/>
+
+    <!-- lettuce -->
+    <path d="M55 335 Q90 310 130 332 Q170 306 210 330 Q250 304 290 330 Q330 304 370 330 Q410 306 450 332 Q490 312 505 335 Q495 350 460 344 Q420 356 380 344 Q340 356 300 344 Q260 356 220 344 Q180 356 140 344 Q100 356 65 344 Q50 342 55 335 Z" fill="#6CB33F"/>
+
+    <!-- tomato -->
+    <rect x="70" y="316" width="420" height="22" rx="10" fill="#E8432F"/>
+    <circle cx="120" cy="327" r="5" fill="#C4291A" opacity="0.6"/>
+    <circle cx="250" cy="327" r="5" fill="#C4291A" opacity="0.6"/>
+    <circle cx="380" cy="327" r="5" fill="#C4291A" opacity="0.6"/>
+
+    <!-- cheese drip layer -->
+    <path d="M75 300 L485 300 L485 302 Q470 330 445 306 Q430 332 405 308 Q388 330 365 306 Q345 330 320 308 Q300 330 278 306 Q258 330 235 308 Q215 330 192 306 Q172 330 150 308 Q130 330 108 306 Q90 328 75 302 Z" fill="url(#cheeseGrad)"/>
+
+    <!-- patty -->
+    <path d="M65 296 Q65 262 120 258 L440 258 Q495 262 495 296 Q495 312 460 314 L100 314 Q65 312 65 296 Z" fill="url(#pattyGrad)"/>
+    <ellipse cx="150" cy="285" rx="10" ry="6" fill="#2E1608" opacity="0.5"/>
+    <ellipse cx="300" cy="278" rx="12" ry="6" fill="#2E1608" opacity="0.5"/>
+    <ellipse cx="410" cy="288" rx="9" ry="5" fill="#2E1608" opacity="0.5"/>
+
+    <!-- top bun -->
+    <path d="M65 258 Q70 130 280 118 Q490 130 495 258 Z" fill="url(#bunTop)"/>
+    <path d="M65 258 Q70 130 280 118 Q490 130 495 258 Q490 246 280 240 Q70 246 65 258 Z" fill="#000" opacity="0.08"/>
+
+    <!-- sesame seeds -->
+    <g fill="#FFF6E5">
+      <ellipse cx="160" cy="180" rx="7" ry="4" transform="rotate(-20 160 180)"/>
+      <ellipse cx="220" cy="150" rx="7" ry="4" transform="rotate(10 220 150)"/>
+      <ellipse cx="290" cy="140" rx="7" ry="4" transform="rotate(-15 290 140)"/>
+      <ellipse cx="360" cy="155" rx="7" ry="4" transform="rotate(20 360 155)"/>
+      <ellipse cx="410" cy="190" rx="7" ry="4" transform="rotate(-10 410 190)"/>
+      <ellipse cx="250" cy="195" rx="7" ry="4" transform="rotate(5 250 195)"/>
+      <ellipse cx="330" cy="200" rx="7" ry="4" transform="rotate(-25 330 200)"/>
+      <ellipse cx="190" cy="220" rx="7" ry="4" transform="rotate(15 190 220)"/>
+    </g>
+  </g>
+</svg>
