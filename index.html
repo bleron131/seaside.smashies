@@ -24,7 +24,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -91,7 +91,8 @@
 
   <!-- ============ HERO ============ -->
   <section class="hero">
-    <div class="hero-glow"></div>
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div class="hero-copy reveal">
         <div class="hero-badges">
@@ -118,17 +119,14 @@
           <li>☀️ Sitzplätze im Freien</li>
         </ul>
       </div>
-
-      <div class="hero-visual reveal">
-        <div class="hero-burger-glow"></div>
-        <img src="assets/img/burger-hero.svg" alt="Saftiger Seaside Smashies Smashburger mit Käse, Salat und Tomate" class="hero-burger" width="560" height="460" />
-        <div class="hero-review-card">
-          <div class="stars">★★★★★</div>
-          <p>„Bester Smashburger, den ich in der Schweiz gegessen habe.“</p>
-          <span>— Google Bewertung <b>4.8 ★</b></span>
-        </div>
-      </div>
     </div>
+
+    <div class="hero-review-card reveal">
+      <div class="stars">★★★★★</div>
+      <p>„Bester Smashburger, den ich in der Schweiz gegessen habe.“</p>
+      <span>— Google Bewertung <b>4.8 ★</b></span>
+    </div>
+
     <div class="scroll-cue" aria-hidden="true"><span></span></div>
   </section>
 
@@ -644,6 +642,10 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; <span id="year"></span> Seaside Smashies. Alle Rechte vorbehalten.</p>
+      <div class="footer-legal">
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
     </div>
   </footer>
 
